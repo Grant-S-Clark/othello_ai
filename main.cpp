@@ -159,5 +159,7 @@ int main()
         std::cout << b;
     }
     
+    delete[] board;
+    
     return 0;
 }
